@@ -9,5 +9,6 @@ public interface IBrandCarService {
     List<BrandCarPojo> getAll();
     Optional<BrandCarPojo> getBrandCar(Integer id);
     BrandCarPojo saveBrandCar(BrandCarPojo newBrandCar);
+    Optional<BrandCarPojo> updateBrandCar(BrandCarPojo updateBrandCar);
     boolean deleteBrandCar(Integer idBrandCar);
 }
